@@ -178,6 +178,8 @@ AWS_STORAGE_BUCKET_NAME = 'daxitsurani-personal'
 AWS_S3_FILE_OVERWRITE=False
 AWS_DEFAULT_ACL=None
 
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
 
 if os.getcwd() == '/app':
     DEBUG=False
