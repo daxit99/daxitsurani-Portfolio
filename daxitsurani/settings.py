@@ -163,21 +163,21 @@ STATIC_ROOT=os.path.join(BASE_DIR,'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-AWS_QUERYSTRING_AUTH = False
+# AWS_QUERYSTRING_AUTH = False
 
 STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 
-AWS_S3_FILE_OVERWRITE=False
+# AWS_S3_FILE_OVERWRITE=False
 
 
-AWS_ACCESS_KEY_ID = 'AKIA2LE3MS6B62GSTHOC '
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'daxitsurani-personal'
+# AWS_ACCESS_KEY_ID = 'AKIA2LE3MS6B62GSTHOC '
+# AWS_SECRET_ACCESS_KEY = '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'
+# AWS_STORAGE_BUCKET_NAME = 'daxitsurani-personal'
 
-AWS_S3_FILE_OVERWRITE=False
-AWS_DEFAULT_ACL=None
+# AWS_S3_FILE_OVERWRITE=False
+# AWS_DEFAULT_ACL=None
 
 # STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
